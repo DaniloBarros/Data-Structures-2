@@ -1,0 +1,15 @@
+Rafael Akiyoshi
+Danilo Barros
+
+4)
+
+5) Um algoritmo eficiente para cobrir todas as casas com o sinal de telefone das bases seria:
+    1- Começar no final de um ponto da estrada em direção ao outro.
+    2- Ao encontrar uma casa em um determinado ponto x, andar mais quatro milhas e colocar uma estação(1)
+    Obs- Isso garantirá que todas as casas do início até (1) estão cobertas por (1)
+    3- Andar mais quatro milhas e apagar todas as casas que ficaram para trás da contagem
+    4- Repetir os passos acima até que tudo tenha sido coberto.
+
+13)
+
+15)
