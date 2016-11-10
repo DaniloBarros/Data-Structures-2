@@ -10,6 +10,10 @@ Danilo Barros
     3- Andar mais quatro milhas e apagar todas as casas que ficaram para trás da contagem
     4- Repetir os passos acima até que tudo tenha sido coberto.
 
-13)
+13) 
 
-15)
+15) Um algoritmo eficiente para formar um comitê com o menor numero de estudantes possível seria:
+    1- Olhar os intervalos não verificados que terminanm mais cedo
+    2- Dentre os que intercedem este, escolher o que termina mais tarde
+    3- Marcando este como nosso possível estudante e marcando todos os seus intercessores como já verificados.
+    4- Ao final de todas as iterações, teremos como resultado o nosso comitê de alunos.
