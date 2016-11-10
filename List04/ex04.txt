@@ -1,7 +1,22 @@
 Rafael Akiyoshi
 Danilo Barros
 
-4)
+4) Imagine uma sequencia A1 até An e A1.2 até An.2, queremos achar um algoritmo ambicioso que encontre o primeiro evento em A que é o mesmo em A1.2, e depois com A2.2, e chamaremos de K1 até Kn.
+    
+     int i = j = 1;
+     while i <= n && j<=m{
+        if(Ai == Ai.2){
+            kj = i;
+            i++;
+            j++;
+        }else{
+            i-i+1;
+        }
+        break;
+     if(j=m+1){
+        return k1....kn;
+     }else{
+        A.2 não é subsequencia de A;
 
 5) Um algoritmo eficiente para cobrir todas as casas com o sinal de telefone das bases seria:
     1- Começar no final de um ponto da estrada em direção ao outro.
