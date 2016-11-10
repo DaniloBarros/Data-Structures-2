@@ -10,7 +10,9 @@ Danilo Barros
     3- Andar mais quatro milhas e apagar todas as casas que ficaram para trás da contagem
     4- Repetir os passos acima até que tudo tenha sido coberto.
 
-13) 
+13) Um algoritmo eficiente seria ordenar os trabalhos em ordem decrescente de wi/ti, pois se trata do algoritmo "Scheduling to minimizing lateness".
+    Suponha que tenha outro cronograma que não seja esse, pode-se observar que há inversões. Porém, pela definição, se fizermos trocas adjacentes de i e j, não aumentará o atraso, mantendo o mesmo tempo.
+    
 
 15) Um algoritmo eficiente para formar um comitê com o menor numero de estudantes possível seria:
     1- Olhar os intervalos não verificados que terminanm mais cedo
