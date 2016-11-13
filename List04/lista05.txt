@@ -1,7 +1,13 @@
 Rafael AKiyoshi
 Danilo Barros
 
-2)
+2) Algoritmo de Divisão e Conquista que recebe a1, ..... an e retorna o numero de inversões significativas e o vetor ordenado.
+      K1 = metade do vetor
+      K2 = outra metade do vetor.
+      Chame o algoritmo para K1, retornando N1 e b1,...,bk
+      Chame o algoritmo para K2, retornando N2 e bk+1,...,bn
+      Some o numero de inverões significativas (N3) (ai,aj) onde i<=k<j
+      o total será N - (N1+N2+N3)
 
 3) if(S==1){
       returna a propria carta;
