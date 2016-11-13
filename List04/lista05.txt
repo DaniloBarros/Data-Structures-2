@@ -2,3 +2,12 @@ Rafael AKiyoshi
 Danilo Barros
 
 2)
+
+3) if(S==1){
+      returna a propria carta;
+   } else if(s==2){
+      testa se as duas cartas sao equivalentes, se sim retorna-as;
+   }
+   Agora basta dividir o monte de cartas S em 1/2(S) = S1 e 1/2(S) = S2, e chamar a função recursivamente para S1.
+    Se não retornar alguma carta, rodar para S2.
+    
