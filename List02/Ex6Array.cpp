@@ -93,7 +93,7 @@ void heapsort(int *heap){
     int *length = &heap[0];
     
     build_heap(heap, *length);
-    
+    print_heap(heap, *length);;
     for (int i = *length; i >= 2 ; i--) {
         swap(&heap[root], &heap[i]);
         *length -= 1;
@@ -103,7 +103,7 @@ void heapsort(int *heap){
     
 }
 
-int mainn(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     // First index counts the number of valid indexes after it
     int heap[8] = {7,3,4,2,1,6,5,7};
     int size_heap = (sizeof(heap)/sizeof(heap[0])) -1;
@@ -120,3 +120,4 @@ int mainn(int argc, const char * argv[]) {
     
     return 0;
 }
+
