@@ -1,0 +1,36 @@
+Rafael Akiyoshi
+Danilo Barros
+
+4) Imagine uma sequencia A1 até An e A1.2 até An.2, queremos achar um algoritmo ambicioso que encontre o primeiro evento em A que é o mesmo em A1.2, e depois com A2.2, e chamaremos de K1 até Kn.
+    
+     int i = j = 1;
+     while i <= n && j<=m{
+        if(Ai == Ai.2){
+            kj = i;
+            i++;
+            j++;
+        }else{
+            i-i+1;
+        }
+        break;
+     if(j=m+1){
+        return k1....kn;
+     }else{
+        A.2 não é subsequencia de A;
+
+5) Um algoritmo eficiente para cobrir todas as casas com o sinal de telefone das bases seria:
+    1- Começar no final de um ponto da estrada em direção ao outro.
+    2- Ao encontrar uma casa em um determinado ponto x, andar mais quatro milhas e colocar uma estação(1)
+    Obs- Isso garantirá que todas as casas do início até (1) estão cobertas por (1)
+    3- Andar mais quatro milhas e apagar todas as casas que ficaram para trás da contagem
+    4- Repetir os passos acima até que tudo tenha sido coberto.
+
+13) Um algoritmo eficiente seria ordenar os trabalhos em ordem decrescente de wi/ti, pois se trata do algoritmo "Scheduling to minimizing lateness".
+    Suponha que tenha outro cronograma que não seja esse, pode-se observar que há inversões. Porém, pela definição, se fizermos trocas adjacentes de i e j, não aumentará o atraso, mantendo o mesmo tempo.
+    
+
+15) Um algoritmo eficiente para formar um comitê com o menor numero de estudantes possível seria:
+    1- Olhar os intervalos não verificados que terminanm mais cedo
+    2- Dentre os que intercedem este, escolher o que termina mais tarde
+    3- Marcando este como nosso possível estudante e marcando todos os seus intercessores como já verificados.
+    4- Ao final de todas as iterações, teremos como resultado o nosso comitê de alunos.
